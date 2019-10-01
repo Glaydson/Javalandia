@@ -77,6 +77,12 @@ public class Contribuinte {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
+
+	@Override
+	public String toString() {
+		return "Contribuinte [nome=" + nome + ", cpf=" + cpf + ", dataAdmissao=" + dataAdmissao + ", status=" + status
+				+ ", taxaContribuicao=" + taxaContribuicao + ", salario=" + salario + "]";
+	}
 	
 	
 
